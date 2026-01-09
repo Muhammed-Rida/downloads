@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Download Perfect Oral Quilt</title>
 
-  <!-- Google Analytics 4 -->
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-9XKR9VN508"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -39,9 +39,17 @@
 
   <!-- Download button with GA4 event tracking -->
   <a href="PerfectOralQuilt.zip" download class="download-btn"
-     onclick="gtag('event', 'download', { 'file_name': 'PerfectOralQuilt.zip' });">
+     onclick="gtag('event', 'download', { 
+        'file_name': 'PerfectOralQuilt.zip', 
+        'event_category': 'Downloads', 
+        'event_label': 'GitHub Pages'
+     });">
      Download Now
   </a>
+
+  <p style="margin-top: 30px; font-size: 0.9em; color: gray;">
+    Your download location (country/region) will be recorded in Google Analytics.
+  </p>
 
 </body>
 </html>
